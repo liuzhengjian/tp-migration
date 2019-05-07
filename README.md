@@ -4,4 +4,3 @@
 ~~~
 composer require cck/tp-migration
 ~~~
-测试自动更新
