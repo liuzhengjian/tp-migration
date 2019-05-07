@@ -4,3 +4,4 @@
 ~~~
 composer require liuzhengjian/tp-migration
 ~~~
+测试自动更新
