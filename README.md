@@ -2,6 +2,6 @@
 
 ## 安装
 ~~~
-composer require liuzhengjian/tp-migration
+composer require cck/tp-migration
 ~~~
 测试自动更新
