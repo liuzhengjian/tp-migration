@@ -70,7 +70,7 @@ abstract class Command extends \think\console\Command
             ];
         }
 
-        if($dbConfig['type'] == 'sqlsrv'){
+        if($dbConfig['adapter'] == 'sqlsrv'){
             unset($dbConfig['charset']);
         }
 
