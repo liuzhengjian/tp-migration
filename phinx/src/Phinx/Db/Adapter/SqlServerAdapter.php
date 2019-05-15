@@ -900,6 +900,12 @@ ORDER BY T.[name], I.[index_id];";
             case static::PHINX_TYPE_BIG_INTEGER:
                 return array('name' => 'bigint');
                 break;
+            case static::PHINX_TYPE_SMALL_INTEGER:
+                return array('name' => 'smallint');
+                break;
+            case static::PHINX_TYPE_TINY_INTEGER:
+                return array('name' => 'tinyint');
+                break;
             case static::PHINX_TYPE_FLOAT:
                 return array('name' => 'float');
                 break;
