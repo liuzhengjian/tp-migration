@@ -970,6 +970,12 @@ ORDER BY T.[name], I.[index_id];";
             case 'int':
             case 'integer':
                 return static::PHINX_TYPE_INTEGER;
+            case 'tinyint':
+                return static::PHINX_TYPE_TINY_INTEGER;
+            case 'bigint':
+                return static::PHINX_TYPE_BIG_INTEGER;
+            case 'smallint':
+                return static::PHINX_TYPE_SMALL_INTEGER;
             case 'decimal':
             case 'numeric':
             case 'money':
